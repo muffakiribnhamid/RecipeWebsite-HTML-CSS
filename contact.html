@@ -18,49 +18,126 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-   <!-- Nav -->
-   <nav class="navbar">
-    <div class="nav-center">
-      <div class="nav-header">
-        <a href="index.html" class="nav-logo">
-          <img src="/assets/logo.svg" alt="SimplyRecipes">
-        </a>
-        <button type="button" class="btn nav-btn">
-          <i class="fas fa-align-justify"></i>
-        </button>
-      </div>
+    <!-- Nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="/assets/logo.svg" alt="SimplyRecipes" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
 
-      <div class="nav-links">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="tags.html" class="nav-link">Tags</a>
-        <a href="recipes.html" class="nav-link">Recipes</a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
 
-        <div class="nav-link contact-link">
-          <a href="contact.html" class="btn">contact</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
         </div>
       </div>
-    </div>
-   </nav>
-   <!-- End Of Nav -->
+    </nav>
+    <!-- End Of Nav -->
 
-   <!-- Main -->
-   <main class="page">
-    <h1>Contact</h1>
-   </main>
-   <!-- End Of Main -->
+    <!-- Main -->
+    <main class="page">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want To Get In Touch?</h3>
+          <p>
+            Four dollar toast biodiesel plaid salvia actually pickled banjo
+            bespoke mlkshk intelligentsia edison bulb synth.
+          </p>
 
-   <!-- Footer -->
-   <footer class="page-footer">
-    <p>&copy; <span id="date"></span>
-    <span class="footer-logo">
-Muffakir.inc
-    </span>Built By <a href="https://muffakirhamid.me/portfolio">Muffakir Hamid</a></p>
+          <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
 
-   </footer>
-   <!-- End of Footer -->
-   
-   <script src="./js/app.js"></script>
-    
+          <p>
+            Hashtag swag health goth air plant, raclette listicle fingerstache
+            cold-pressed fanny pack bicycle rights cardigan poke.
+          </p>
+        </article>
+
+        <article>
+          <form action="" class="form contact-form">
+            <!-- single form row -->
+            <div class="form-row">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" name="name" id="email" class="form-input">
+            </div>
+            <!-- single form row -->
+             <!-- single form row -->
+             <div class="form-row">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="text" id="email" class="form-input">
+            </div>
+
+            <div class="form-row">
+              <label for="message" class="form-label">Your Email</label>
+              <textarea name="message" id="message" class="form-textarea" ></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Submit</button>
+            <!-- single form row -->
+          </form>
+        </article>
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At this Awesomesouce!</h5>
+
+        <div class="recipes-list">
+          <!-- Single Recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="assets/recipes/recipe-1.jpeg"
+              alt="Food"
+              class="img recipe-img"
+            />
+            <h4>Carbe asada</h4>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- End Single Recipe -->
+
+          <!-- Single Recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="assets/recipes/recipe-2.jpeg"
+              alt="Food"
+              class="img recipe-img"
+            />
+            <h4>Greek Ribs</h4>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- End Single Recipe -->
+
+          <!-- Single Recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="assets/recipes/recipe-3.jpeg"
+              alt="Food"
+              class="img recipe-img"
+            />
+            <h4>Vegetable Soup</h4>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- End Of Main -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo"> Muffakir.inc </span>Built By
+        <a href="https://muffakirhamid.me/portfolio">Muffakir Hamid</a>
+      </p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
